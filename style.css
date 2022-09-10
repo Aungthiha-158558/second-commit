@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Overpass:wght@400;700&display=swap);
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(216, 12%, 8%);
+}
+.MainContainer{
+    width: 100vW;
+    height: 100vh;
+    position: relative;
+}
+.container{
+    border-radius: 20px;
+    max-width: 300px;
+    height: 300px;
+    background-color: hsl(213, 19%, 18%);
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 30px 10px;
+
+}
+
+.container ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding:0;
+    margin-bottom: 30px
+}
+.container p{
+    font-size: 13px;
+    font-family: Overpass;
+    font-weight: 400;
+    color:hsl(217, 12%, 63%);
+    margin-bottom: 20px;
+}
+.container h2{
+    font-size: 30px;
+    font-family: Overpass;
+    font-weight: 700;
+    margin: 5px 0;
+    color: hsl(0, 0%, 100%);
+}
+.container svg{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: hsl(208, 15%, 22%) ;
+}
+.container ul li{
+    padding: 10px 15px;
+    background-color:hsl(208, 15%, 22%) ;
+    margin-right: 20px;
+    border-radius: 50%;
+    z-index: 1;
+    color:   hsl(216, 12%, 54%);
+    cursor: pointer;
+    user-select: none;
+}
+.container ul li:hover{
+    background-color:  hsl(216, 12%, 54%);
+    color:white;
+}
+
+.container button{
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Overpass;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.mainSecContainer{
+    display: none;
+}
+.secContainer{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    max-height: 350px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 20px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.secContainer svg{
+    margin-bottom: 30px;
+}
+.secContainer div {
+    background-color:  hsl(208, 15%, 22%) ;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    color: hsl(25, 97%, 53%);
+    font-family: Overpass;
+    box-shadow:1px 0.5px 20px  hsl(210, 3%, 12%);
+    margin-bottom: 10px;
+}
+.secContainer p{
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: Overpass;
+    color:  hsl(217, 12%, 63%);
+}
+.secContainer h1{
+    margin: 0;
+    font-family: Overpass;
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+.secContainer i{
+    position: fixed;
+    font-size: 30px;
+    right: 20px;
+    top:20px;
+}
